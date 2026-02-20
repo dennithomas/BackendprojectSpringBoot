@@ -1,0 +1,49 @@
+/* Main Navbar Container */
+.navbar-container {
+    width: 100%;
+    background-color: #111;
+    padding: 15px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Inner Wrapper */
+.navbar-wrapper {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Default Link Style */
+.navbar-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.navbar-link:hover {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+/* Active Link (React Router Active Class) */
+.navbar-link.active {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+/* Logout Special Style */
+.logout-link {
+    background-color: #dc3545;
+}
+
+.logout-link:hover {
+    background-color: #b02a37;
+}

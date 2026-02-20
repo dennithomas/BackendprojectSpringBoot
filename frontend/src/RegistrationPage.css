@@ -1,0 +1,128 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.coverpage{
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+}
+.arrange{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.adminuser {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.adminuser a {
+    display: inline-block;
+    padding: 10px 22px;
+    background-color: #6c63ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.adminuser a:hover {
+    background-color: #574fd6;
+    transform: scale(1.05);
+}
+
+.midpage{
+    border-radius: 10px;
+    margin: 70px;
+    width: 40%;
+    height: 80vh;
+    background-color: yellowgreen;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.name,
+.email,
+.mobile,
+.password,
+.gender,
+.address,
+.button {
+  margin-bottom: 15px;
+}
+
+input,
+select,
+textarea {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.button button {
+  width: 220px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: #0056b3;
+}
+.h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.h2 h2 {
+  font-size: 28px;
+  color: #333;
+  font-weight: bold;
+}
+.loginpage {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.loginpage a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.loginpage a:hover {
+  text-decoration: underline;
+}
