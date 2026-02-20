@@ -11,7 +11,7 @@ import UserHome from "./components/Userportal/UserHome";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/Springboot-React-Project2/">
         <Routes>
           <Route path="/" element={<RegistrationPage />} />
           <Route path="/login" element={<UserLoginpage/>} />
