@@ -3,7 +3,7 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://dennithomas.github.io/Springboot-React-Project2",
+  "homepage": "https://dennithomas.github.io/BackendprojectSpringBoot/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
